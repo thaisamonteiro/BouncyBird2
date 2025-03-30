@@ -3,7 +3,6 @@ from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
 from code.Menu import Menu
 from code.Player import main
 
-
 class Game:
 
     def __init__(self):

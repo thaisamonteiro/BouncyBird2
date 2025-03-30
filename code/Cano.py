@@ -41,6 +41,9 @@ class Cano:
         base_ponto = passaro_mask.overlap(base_mask, distancia_base)
 
         if base_ponto or topo_ponto:
-            return True
+            #return True
+            pygame.quit()  # Close Window
+            quit()  # end pygame
+
         else:
             return False
